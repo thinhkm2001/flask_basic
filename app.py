@@ -103,7 +103,7 @@ def getinfopc():
 	txt = f"""
 	<h1><a href="/" class="home">Home Page</a></h1>
 	<h3>Machine: {platform.architecture()}</h3>
-	<h3>Ram: ({int(psutil.virtual_memory().total /1000000)})</h3>
+	<h3>Ram: ({int(psutil.virtual_memory().total /1073741824)})</h3>
 """
 	return txt
 # =============================Get Messenger Temp Mail===========================
