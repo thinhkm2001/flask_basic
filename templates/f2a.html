@@ -1,0 +1,13 @@
+<html>  
+    <head>  
+        <title>Get Code 2FA</title>  
+    </head>  
+    <body>
+        <h1><a href="/" class="home">Home Page</a></h1>
+        <p>{{code}}</p>
+        <form action = "/2fa" method = "post" enctype="multipart/form-data">  
+            <input type="text" name="text" value={{f2a}} />  
+            <input type = "submit" value="Submit">  
+        </form>  
+    </body>  
+    </html>
